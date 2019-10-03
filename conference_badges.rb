@@ -23,10 +23,10 @@ def assign_rooms(names)
 end 
 
 def printer(names)
-   batch_badge_creator(name).map do |line|
+   batch_badge_creator(name).each do |line|
    puts line 
 end 
- assign_rooms(names).map do |line|
+ assign_rooms(names).each do |line|
    return line
 end 
 end 
