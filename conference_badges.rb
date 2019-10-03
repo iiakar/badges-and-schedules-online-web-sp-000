@@ -27,8 +27,8 @@ def printer(names)
     puts line
   end 
   
-  assign_rooms(names).each do |id|
-    puts id 
+  assign_rooms(names).each do |line|
+    puts line
   end
 end 
 
