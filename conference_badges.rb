@@ -23,7 +23,7 @@ def assign_rooms(names)
 end 
 
 def printer(names)
-   names.select do |line|
+   names.map do |line|
     
   puts line 
 end 
