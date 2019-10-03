@@ -29,5 +29,5 @@ end
  assign_rooms(names).each do |line|
    return line
 end 
-printer(names)
+return printer(names)
 end 
