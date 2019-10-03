@@ -22,18 +22,9 @@ def assign_rooms(names)
   return a
 end 
 
-def printer(attendees)
-   batch_badge_creator(attendees).select do |line|
+def printer(a)
+   batch_badge_creator(a).select do |line|
     
-  
-  assign_rooms(attendees).each do |linee|
-    puts linee
-     puts line
-  end 
-  
- 
+  puts line 
 end 
-
 end 
-   
-  
