@@ -22,8 +22,8 @@ def assign_rooms(names)
   return a
 end 
 
-def printer(a)
-   batch_badge_creator.select do |line|
+def printer(names)
+   names.select do |line|
     
   puts line 
 end 
