@@ -27,4 +27,5 @@ def printer(names)
     
   puts line 
 end 
+printer(names)
 end 
