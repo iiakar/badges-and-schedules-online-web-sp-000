@@ -22,12 +22,12 @@ def assign_rooms(names)
   return a
 end 
 
-def printer(array)
-  batch_badge_creator(array).each do |id|
+def printer(names)
+  batch_badge_creator(names).each do |id|
     puts id
   end 
   
-  assign_rooms(array).each do |id|
+  assign_rooms(names).each do |id|
     puts id 
   end
 end 
