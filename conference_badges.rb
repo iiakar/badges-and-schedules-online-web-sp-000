@@ -24,8 +24,9 @@ end
 
 def printer(names)
    batch_badge_creator(name).map do |line|
-    
-  puts line 
+   puts line 
 end 
-return printer(names)
+ assign_rooms(names).map do |line|
+   return line
+end 
 end 
