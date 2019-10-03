@@ -23,7 +23,7 @@ def assign_rooms(names)
 end 
 
 def printer(names)
-   names.each_with_index do |line,index|
+   names.map do |line,index|
     
   puts line 
 end 
