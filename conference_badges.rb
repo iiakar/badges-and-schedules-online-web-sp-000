@@ -31,13 +31,3 @@ def printer(names)
     puts line
   end
 end 
-
-# def printer(names)
-#   batch_badge_creator(names).each do |line|
-#   puts line 
-# end 
-# assign_rooms(names).each do |line|
-#   return line
-# end 
-
-# end 
