@@ -23,7 +23,7 @@ def assign_rooms(names)
 end 
 
 def printer(names)
-   names. do |line|
+   names.each_line do |line|
     
   puts line 
 end 
